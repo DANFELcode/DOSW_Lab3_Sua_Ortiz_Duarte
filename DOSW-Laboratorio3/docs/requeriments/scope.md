@@ -12,7 +12,7 @@ El principal problema a resolver de la plataforma es automatizar
 
 ### 3.1 Diagrama
 
-![Context diagram evidence](uml/Diagrama de contexto_TECHCUP.png)
+![Context diagram evidence](../uml/Diagrama de contexto_TECHCUP.png)
 
 ### 3.2 Actores
 
