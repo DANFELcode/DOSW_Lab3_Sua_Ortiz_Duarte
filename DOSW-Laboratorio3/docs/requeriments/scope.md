@@ -6,7 +6,7 @@
 * Objetivo: El sistema tiene como objetivo: Permitir crear torneos, registrar equipos, procesar pagos y generar informes de torneos de fútbol semestrales.
 
 ## 2. Problema a resolver
-El principal problema a resolver de la plataforma es automatizar
+El principal problema a solucionar de la plataforma es centralizar el sistema para mejorar su lógica en la creación de torneos. Con el fin de que los equipos puedan quedar registrados con información básica y los respectivos pagos se puedan realizar correctamente; de manera que dichos pagos puedan ser enviados a la oficina del Decano.
 
 ## 3. Diagrama de Contexto
 
