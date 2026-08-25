@@ -8,12 +8,13 @@
 ## 2. Problema a resolver
 El principal problema a solucionar de la plataforma es centralizar el sistema para mejorar su lógica en la creación de torneos. Con el fin de que los equipos puedan quedar registrados con información básica y los respectivos pagos se puedan realizar correctamente; de manera que dichos pagos puedan ser enviados a la oficina del Decano.
 
+
 ## 3. Diagrama de Contexto
 
 ### 3.1 Diagrama
 
-![Context diagram evidence](../uml/Diagrama_de_contexto_TECHCUP.png)
 
+![Context diagram evidence](../uml/Diagrama_de_contexto_TECHCUP.png)
 ### 3.2 Actores
 
 
