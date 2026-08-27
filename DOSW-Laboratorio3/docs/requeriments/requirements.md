@@ -91,7 +91,7 @@ PARA PODER habilitarlo y permitir que los equipos se inscriban en él.
 
 ### i. ¿Identifica algún requisito que deba detallarse con mayor precisión? ¿Cuál o cuáles?
 
-"Gestionar los torneos y equipos" es muy genérico: no especifica qué acciones de gestión incluye (como: editar información o cambiar estado). De igual forma, "Escalabilidad para más competencias" no define una métrica concreta (por ejemplo, número de usuarios concurrentes)
+"Gestionar los torneos y equipos" es muy genérico: no especifica qué acciones de gestión incluye (como: editar información o cambiar estado). De igual forma, "Escalabilidad para más competencias" no define una métrica concreta (por ejemplo, número de usuarios concurrentes).
 
 ### ii. ¿Existen requisitos que se contradigan entre sí? ¿Cuáles?
 
@@ -103,4 +103,4 @@ Crear equipos y torneos e Inscripción a torneos y equipos, ya que son la base f
 
 ### iv. ¿Existe algún requisito que no deba implementarse?
 
-La funcionalidad de eliminar un torneo, no debería implementarse tal como está descrita, ya que contradice la regla de negocio de que los torneos no se pueden eliminar. En cambio, esa necesidad debería resolverse con el estado "Cancelad".
+La funcionalidad de eliminar un torneo, no debería implementarse tal como está descrita, ya que contradice la regla de negocio de que los torneos no se pueden eliminar. En cambio, esa necesidad debería resolverse con el estado "Cancelado".
