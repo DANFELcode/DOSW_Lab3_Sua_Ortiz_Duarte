@@ -55,7 +55,7 @@ PARA PODER registrar el equipo y participar en el torneo activo en la plataforma
 | **Precondiciones** | El organizador debe estar autenticado; deben existir equipos inscritos con pagos registrados en el torneo. |
 | **Actor** | Organizador del torneo. |
 | **Flujo principal** | 1. El organizador selecciona un torneo.<br>2. El organizador consulta el estado del pago de un equipo inscrito.<br>3. El sistema muestra la validación del pago y permite generar el informe correspondiente. |
-| **Diagrama de caso de uso** | ![Diagrama RF-02](../uml/Diagrama_RF-02.png) |
+| **Diagrama de caso de uso** | ![Diagrama RF-002](../uml/Diagrama_RF-02.png) |
 | **Poscondiciones** | El organizador obtiene la confirmación del pago y el informe solicitado en el formato [JSON]. |
 
 **Historia de Usuario**
@@ -74,7 +74,7 @@ PARA PODER consultar los estados de pago de cada equipo y generar un informe seg
 | **Precondiciones** | El usuario debe estar autenticado con el rol que le corresponde (organizador o capitán); para crear un torneo no debe existir otro torneo activo al mismo tiempo. |
 | **Actor** | Organizador del torneo y Capitán de equipo. |
 | **Flujo principal** | 1. El usuario inicia sesión con su rol.<br>2. Si es organizador, ingresa la información del nuevo torneo y lo crea en estado "pendiente".<br>3. Si es capitán, ingresa la información del nuevo equipo y lo registra en el sistema. |
-| **Diagrama de caso de uso** | ![Diagrama RF-03](../uml/Diagrama_RF-03.png) |
+| **Diagrama de caso de uso** | ![Diagrama RF-003](../uml/Diagrama_RF-03.png) |
 | **Poscondiciones** | El torneo queda creado en estado pendiente, o el equipo queda registrado en el sistema para inscribirse en el torneo activo. |
 
 **Historia de Usuario**
