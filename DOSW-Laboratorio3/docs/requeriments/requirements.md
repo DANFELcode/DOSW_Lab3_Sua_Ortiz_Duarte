@@ -60,9 +60,11 @@ PARA PODER registrar el equipo y participar en el torneo activo en la plataforma
 
 **Historia de Usuario**
 
-COMO organizador del torneo
-QUIERO validar pagos y generar informes del torneo
-PARA PODER consultar los estados de pago de cada equipo y generar un informe según el pago realizado por dicho equipo.
+**COMO** organizador del torneo
+
+**QUIERO** validar pagos y generar informes del torneo
+
+**PARA PODER** consultar los estados de pago de cada equipo y generar un informe según el pago realizado por dicho equipo.
 
 ### 2.3 Requerimiento Funcional 3
 
@@ -79,17 +81,21 @@ PARA PODER consultar los estados de pago de cada equipo y generar un informe seg
 
 **Historia de Usuario**
 
-COMO capitán del equipo
-QUIERO pagar la cuota de inscripción de mi equipo
-PARA PODER registrar el pago como completado e inscribir al equipo en el torneo.
+**COMO** capitán del equipo
 
-COMO organizador del torneo
-QUIERO crear un torneo con estado "pendiente"
-PARA PODER habilitarlo y permitir que los equipos se inscriban en él.
+**QUIERO** pagar la cuota de inscripción de mi equipo
+
+**PARA PODER** registrar el pago como completado e inscribir al equipo en el torneo.
+
+**COMO** organizador del torneo
+
+**QUIERO** crear un torneo con estado "pendiente"
+
+**PARA PODER** habilitarlo y permitir que los equipos se inscriban en él.
 
 ## 3. Preguntas
 
-### i. ¿Identifica algún requisito que deba detallarse con mayor precisión? ¿Cuál o cuáles?
+### i. ¿Identifiquen algún requisito que deba detallarse con mayor precisión? ¿Cuál o cuáles?
 
 "Gestionar los torneos y equipos" es muy genérico: no especifica qué acciones de gestión incluye (como: editar información o cambiar estado). De igual forma, "Escalabilidad para más competencias" no define una métrica concreta (por ejemplo, número de usuarios concurrentes).
 
@@ -97,10 +103,16 @@ PARA PODER habilitarlo y permitir que los equipos se inscriban en él.
 
 Si, ya que la regla de negocio del caso "los torneos no se pueden eliminar" contradice la funcionalidad general escrita en el mismo caso, "Eliminar un torneo y sus equipos registrados", atribuida al organizador.
 
-### iii. Si tuvieras que priorizar los requisitos, ¿cuáles dos deberían considerarse los más importantes e implementarse en la primera iteración del proyecto?
+### iii. Si tuvieran que priorizar los requisitos, ¿cuáles dos deberían considerarse los más importantes e implementarse en la primera iteración del proyecto?
 
 Crear equipos y torneos e Inscripción a torneos y equipos, ya que son la base funcional sin la cual el resto de funcionalidades como pago, validación, e informes no tendrían sobre qué operar.
 
 ### iv. ¿Existe algún requisito que no deba implementarse?
 
 La funcionalidad de eliminar un torneo, no debería implementarse tal como está descrita, ya que contradice la regla de negocio de que los torneos no se pueden eliminar. En cambio, esa necesidad debería resolverse con el estado "Cancelado".
+
+## 4. Link al Mockup
+
+*Requisito usado: Crear un torneo o un equipo.*
+
+https://pep-invert-71344976.figma.site
