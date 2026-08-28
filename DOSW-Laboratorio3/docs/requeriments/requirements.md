@@ -115,4 +115,4 @@ La funcionalidad de eliminar un torneo, no debería implementarse tal como está
 
 *Requisito usado: Crear un torneo o un equipo.*
 
-https://www.figma.com/make/wJZCD92qtletr6ZLvMMUOX/TechCup_Mockup?t=YfC0IajQ7H5um5Ce-1
+https://pep-invert-71344976.figma.site
